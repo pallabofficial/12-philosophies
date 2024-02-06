@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#main{
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    position: relative;
+
+}
+
+#circle{
+    height:100%;
+    aspect-ratio: 1/1;
+    /* background-color: red; */
+    border-radius: 50%;
+    transform: translate(-50%,0);
+    position: relative;
+    border:2px solid grey;
+    
+
+}
+.stripe{
+    width:100%;
+    height:10vh;
+    /* background-color: black; */
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 0 0;
+    display:flex;
+}
+.part1{
+    width:50%;
+    height:100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:1vw;
+   
+}
+.time{
+    color:rgb(11, 2, 2);
+    
+    font-size: 3vw;;
+}
+.part2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;;
+    color:rgb(19, 16, 16);
+    padding:1vw;
+}
+#stripe-3{
+    transform: rotate(0deg);
+}
+#stripe-4{
+    transform: rotate(30deg);
+}
+#stripe-5{
+    transform: rotate(60deg);
+}
+#stripe-6{
+    transform: rotate(90deg);
+}
+#stripe-7{
+    transform: rotate(120deg);
+}
+#stripe-8{
+    transform: rotate(150deg);
+}
+#stripe-9{
+    transform: rotate(180deg);
+}
+#stripe-10{
+    transform: rotate(210deg);
+}
+#stripe-11{
+    transform: rotate(240deg);
+}
+#stripe-12{
+    transform: rotate(270deg);
+}
+#stripe-1{
+    transform: rotate(300deg);
+}
+#stripe-2{
+    transform: rotate(330deg);
+}
+
+/* ------------------------------------------------------right buttons----------------------------- */
+
+#buttons-div{
+    position: absolute;
+    right:0%;
+    height:100%;
+    width:5%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid black;
+}
+.buttons{
+    width:100%;
+    height:7.5%;
+    background-color: red;
+}
+/* ---------------------------------------------philosophy screen--------------------------------------- */
+
+
+#screen-div{
+    position:absolute;
+    top: 10%;
+    right:20%;
+    width:30%;
+    aspect-ratio: 4/2.5;
+    background-color: black;
+}
